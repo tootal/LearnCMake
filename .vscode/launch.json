@@ -14,7 +14,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "preLaunchTask": "Build active file"
+            "preLaunchTask": "CMake Build"
         }
     ]
 }

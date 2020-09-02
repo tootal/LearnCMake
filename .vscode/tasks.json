@@ -3,14 +3,13 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "Build active file",
-			"command": "cl.exe",
+			"label": "CMake Build",
+			"command": "cmake",
 			"args": [
-				"/Zi",
-				"/EHsc",
-				"/Fe:",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${file}"
+				"-S",
+				".",
+				"-B",
+				"build",
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
