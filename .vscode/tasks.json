@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "C/C++: cl.exe build active file",
+			"label": "Build active file",
 			"command": "cl.exe",
 			"args": [
 				"/Zi",
